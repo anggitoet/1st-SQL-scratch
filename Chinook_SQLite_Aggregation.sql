@@ -16,11 +16,11 @@ ORDER BY HargaRataan
 
 --3. Case When
 SELECT CustomerId , Country , 
-	CASE Country 
-	WHEN 'USA' THEN 'Domestic'
-	--Gabisa make IF :')
-	ELSE 'Foreign' END as CustomerGroup
-	--Jangan lupa 'END'
+CASE Country 
+WHEN 'USA' THEN 'Domestic'
+--Gabisa make IF :')
+ELSE 'Foreign' END as CustomerGroup
+--Jangan lupa 'END'
 FROM Customer c 
 
 --NOTE: Untuk merapihkan ke format SQL: Block Code, Right Click, Format, Format SQL
